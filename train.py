@@ -19,6 +19,8 @@ print(acc)
 
 y_pred = clf.predict(X_test)
 
+print ("preparando metricas")
+
 metrics = """
 Accuracy: {:10.4f}
 

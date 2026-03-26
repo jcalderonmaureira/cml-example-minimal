@@ -19,9 +19,6 @@ print(acc)
 
 y_pred = clf.predict(X_test)
 
-print ("preparando metricas")
-print ("post activacion GitHub Actions")
-
 metrics = """
 Accuracy: {:10.4f}
 
